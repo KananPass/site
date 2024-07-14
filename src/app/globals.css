@@ -13,3 +13,7 @@
 .text-page {
     @apply dark:text-white text-black;
 }
+
+.hover-text {
+    @apply hover:text-[#00bfa6] transition-all duration-500;
+}
