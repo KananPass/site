@@ -7,7 +7,7 @@
 }
 
 .bg-page {
-    @apply dark:bg-black bg-white;
+@apply dark:bg-[#0D0D0D] bg-[#FCFCFC] 
 }
 
 .text-page {
