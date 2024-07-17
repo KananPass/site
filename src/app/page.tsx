@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      <main className="flex flex-col">
+      <main className="flex flex-col gap-2">
         <NavbarPage />
 
         <PresentationPage />
