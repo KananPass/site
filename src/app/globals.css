@@ -11,7 +11,7 @@
 }
 
 .text-page {
-    @apply dark:text-white text-black;
+@apply dark:text-[#FCFCFC] text-[#0D0D0D];
 }
 
 .hover-text {
