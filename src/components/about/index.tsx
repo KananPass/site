@@ -1,7 +1,7 @@
 export default function AboutPage() {
     return (
         <>
-            <section className="sm:h-[20vh] flex flex-col justify-center items-center lg:px-20 px-2 mx-4 sm:py-0 py-10" id="about">
+            <section className="sm:h-screen-size flex flex-col justify-center items-center lg:px-20 px-2 mx-4 sm:py-0 py-10" id="about">
                 <h2 className="text-4xl font-bold text-center pb-4">About</h2>
                 <div className="flex flex-col items-center sm:py-0 py-5">
                     <p className="text-xl text-center lg:px-44 px-0 sm:py-0 py-10">

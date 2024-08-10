@@ -11,7 +11,7 @@ export default function NavbarPage() {
                     <a href="#download" className="sm:px-4 px-2 hover-text">Download</a>
                     <a href="#contribute" className="sm:px-4 px-2 hover-text">Contribute</a>
                 </div>
-                <button className="transition hover:bg-[#00bfa680] bg-[#00bfa6] disabled:bg-gray-700 text-white rounded-3xl px-5 py-3" disabled>
+                <button className="transition hover:bg-primary50 bg-primary disabled:bg-gray-700 text-white rounded-3xl px-5 py-3" disabled>
                     Pre-register
                 </button>
             </nav>
