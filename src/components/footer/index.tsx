@@ -25,6 +25,27 @@ export default function Footer() {
             <p className="sm:text-sm text-center">
                 © { new Date().getFullYear() } KananPass
             </p>
+            <div className="mt-4 flex items-center">
+                <label htmlFor="language-select" className="sm:text-sm text-center text-gray-700 mr-2">Language:</label>
+                <div className="relative inline-block">
+                    <select
+                        id="language-select"
+                        value={ selectedLanguage }
+                        className="appearance-none border border-gray-300 rounded-md pl-10 pr-8 py-1 sm:text-sm text-xs bg-white cursor-pointer"
+                        onChange={(e) => handleLanguageChange(e.target.value)}
+                    >
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                    </select>
+                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <img
+                            src={`/path/to/flag/icons/${ selectedLanguage }.png`}
+                            alt={`${ selectedLanguage } flag`}
+                            className="w-5 h-5"
+                        />
+                    </div>
+                </div>
+            </div>
         </footer>
     );
 }
