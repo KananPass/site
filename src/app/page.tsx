@@ -9,7 +9,7 @@ import ContributePage from "../components/contribute";
 import PresentationPage from "../components/presentation";
 
 export const metadata: Metadata = {
-  title: "KananPass - Open source",
+  title: "KananPass - Open source app",
   description: "Open source multiplatform solution to secure your passwords",
   keywords: ["password", "security", "open source", "multiplatform", "password manager"],
 };

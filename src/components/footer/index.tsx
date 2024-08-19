@@ -7,7 +7,7 @@ export default function Footer() {
         if (typeof window !== 'undefined') {
             return localStorage.getItem('selectedLanguage') || 'en';
         }
-
+        
         return 'en';
     });
 
@@ -25,7 +25,6 @@ export default function Footer() {
             <p className="sm:text-sm text-center">
                 © { new Date().getFullYear() } KananPass
             </p>
-            
         </footer>
     );
 }
