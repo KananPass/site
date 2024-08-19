@@ -5,7 +5,7 @@ export default function NavbarPage() {
                 <h1 className="text-3xl font-bold lg:pb-0 pb-4 cursor-pointer gradient hover-text">
                     KananPass
                 </h1>
-                <div className="flex flex-row lg:pb-0 pb-4">
+                <div className="lg:flex hidden lg:flex-row lg:pb-0 pb-4">
                     <a href="#features" className="sm:px-4 px-2 hover-text">Features</a>
                     <a href="#about" className="sm:px-4 px-2 hover-text">About</a>
                     <a href="#download" className="sm:px-4 px-2 hover-text">Download</a>
