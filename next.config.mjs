@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/assets",
-    output: "export",
+    // basePath: "/assets",
+    //output: "export",
     reactStrictMode: true,
 };
 

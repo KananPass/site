@@ -1,20 +1,36 @@
 import type { Metadata } from "next";
 
+import NavbarPage from "../components/navbar";
+import Footer from "../components/footer";
+import FeaturesPage from "../components/features";
+import AboutPage from "../components/about";
+import DownloadPage from "../components/download";
+import ContributePage from "../components/contribute";
+import PresentationPage from "../components/presentation";
+
 export const metadata: Metadata = {
-  title: "KananPass",
+  title: "KananPass - Open source",
   description: "Open source multiplatform solution to secure your passwords",
+  keywords: ["password", "security", "open source", "multiplatform", "password manager"],
 };
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
-      <main className="flex flex-col min-h-screen justify-center items-center">
-        <h1 className="text-2xl">
-          KananPass
-        </h1>
-        <h3 className="text-xl">
-          Comming soon...
-        </h3>
+      <main className="flex flex-col gap-2">
+        <NavbarPage />
+
+        <PresentationPage />
+
+        <FeaturesPage />
+
+        <AboutPage />
+
+        <DownloadPage />
+
+        <ContributePage />
+
+        <Footer />
       </main>
     </>
   );
